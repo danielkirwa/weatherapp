@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/index.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+  </head>
+  <body>
+    <h1>Weather Dashboard</h1>
+    <div class="container">
+      <div class="weather-input">
+        <h3>Enter a City Name</h3>
+        <input class="city-input" type="text" placeholder="E.g., New York, London, Tokyo" id="txtcity">
+        <button class="search-btn" id="btnsearch">Search</button>
+        <div class="separator"></div>
+        <button class="location-btn" >Use Current Location</button>
+      </div>
+      <div class="weather-data">
+        <div class="current-weather">
+          <div class="details">
+            <h2 id="lbcityname"></h2>
+            <h6 id="lbdescription">Humidity:</h6>
+            <h6 id="lbtemperature">Temperature:</h6>
+            <h6 id="lbwind">Wind:</h6>
+            <h6 id="lbhumidity">Humidity:</h6>
+            <h6 id="lbemoji">Emoji:</h6>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+  </body>
+</html>
