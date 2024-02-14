@@ -1,6 +1,6 @@
 const searchcity = document.getElementById('btnsearch');
 const city = document.getElementById('txtcity');
-const apikey = "6df277b992127b5c3ea607302173a7dc";
+const apikey = "XXXXX";
 let lbcityname = document.getElementById('lbcityname');
 let lbtemperature = document.getElementById('lbtemperature');
 let lbwind = document.getElementById('lbwind');
