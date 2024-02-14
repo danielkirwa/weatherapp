@@ -5,3 +5,9 @@
   <li>Enter city name</li>
   <li>use current location</li>
 </ol>
+<br>
+## Remember the following
+
+<ol>
+  <li>Enter your API from <a href="https://openweathermap.org/">openweathermap</a> </li> it is free locate the js file index.js under APIKEY = "YOU_KEY"
+</ol>
